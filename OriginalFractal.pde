@@ -12,7 +12,7 @@ int fracsize = 450;
   public void mousePressed(){
     if(i>0){
       i=i-5;
-      size=size+100;
+      fracsize=fracsize+100;
     }
   }
 

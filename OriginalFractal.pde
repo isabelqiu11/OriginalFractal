@@ -1,5 +1,5 @@
 int i = 30;
-int size = 450;
+int fracsize = 450;
 
 
   public void setup(){
@@ -7,7 +7,7 @@ int size = 450;
     background(0);
   }
   public void draw(){
-   myFractal(250,250,size);
+   myFractal(250,250,fracsize);
   }
   public void mousePressed(){
     if(i>0){

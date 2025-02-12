@@ -1,11 +1,12 @@
 int i = 30;
 int size = 450;
   public void settings() {
-    size(500,500);
+   // size(500,500);
     
   }
 
   public void setup(){
+size(500,500);
     background(0);
   }
   public void draw(){
